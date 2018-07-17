@@ -1,9 +1,9 @@
 <template>
   <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"/>
+    <!-- <div class="Triangle Triangle--two"/>
     <div class="Triangle Triangle--one"/>
     <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
+    <div class="Triangle Triangle--four"/> -->
   </div>
 </template>
 
@@ -14,8 +14,10 @@
   transform: rotateX(180deg);
   position: relative;
   overflow: hidden;
-  height: 180px;
+  height: 245px;
   width: 245px;
+  background-color: #3B8070;
+  border-radius: 200%
 }
 
 .Triangle {

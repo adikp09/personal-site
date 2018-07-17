@@ -8,7 +8,10 @@
       <h2 class="subtitle">
         I'm Cahyo Adi
       </h2>
-      <div class="links">
+      <h3 class="body-text">
+        I'm sorry, with all due respect.<br>This page is under construction<br>Thanks for visiting
+      </h3>
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -17,7 +20,7 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -53,6 +56,14 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.body-text {
+  font-weight: 250;
+  font-size: 22px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
